@@ -60,21 +60,30 @@
 // Тернарное выражение
 // isReady ? console.log("Всё готово") : console.log("Все не готово")
 // 7 Функции 
-function calculateAge(year){
-    return 2021 - year
-}
-const myAge = calculateAge(2003)
-console.log(myAge)
+//  function calculateAge(year){
+//     return 2021 - year
+// }
+//  const myAge = calculateAge(2003)
+//  console.log(myAge)
 
-function logInfoAbout(name, year){
-    const age = calculateAge(year)
-    if(age>0){
-        console.log('Человек по имени ' + name + ' Сейчас имеет возраст ' + age)
-    } else {
-        console.log('Вообще-то это уже будущее!')
-    }
-}
-logInfoAbout('Назар',20025)
+// function logInfoAbout(name, year){
+//     const age = calculateAge(year)
+//     if(age>0){
+//         console.log('Человек по имени ' + name + ' Сейчас имеет возраст ' + age)
+//     } else {
+//         console.log('Вообще-то это уже будущее!')
+//     }
+// }
+// logInfoAbout('Назар',20025)
+// 8 Массвы 
+const cars = ['Мазда','Мерседес','Форд']
+// const cars = new Array ('Мазда','Мерседес','Форд')
+console.log(cars.length)
+
+cars[0] = 'Porshe'
+
+cars[cars.length]='Mazda'
+console.log(cars)
 
 
 
