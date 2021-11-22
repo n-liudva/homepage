@@ -43,8 +43,12 @@ if (courseStatus==='ready'){
 } else if (courseStatus==='pending'){
     console.log('Курс находится в процесе разработки')
 } else {
-    console.log('Курс не получ')
+    console.log('Курс не получился')
 }
+const num1 = 42//number 
+const num2 = '42'//string
+
+console.log(num1==num2)
 
 
 
