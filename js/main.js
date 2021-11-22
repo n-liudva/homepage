@@ -76,15 +76,23 @@
 // }
 // logInfoAbout('Назар',20025)
 // 8 Массвы 
+// const cars = ['Мазда','Мерседес','Форд']
+// // const cars = new Array ('Мазда','Мерседес','Форд')
+// console.log(cars.length)
+
+// cars[0] = 'Porshe'
+
+// cars[cars.length]='Mazda'
+// console.log(cars)
+// 9 Циклы 
 const cars = ['Мазда','Мерседес','Форд']
-// const cars = new Array ('Мазда','Мерседес','Форд')
-console.log(cars.length)
-
-cars[0] = 'Porshe'
-
-cars[cars.length]='Mazda'
-console.log(cars)
-
+// for (let i=0;i<cars.length;i++){
+//     const car = cars[i]
+//     console.log(car)
+// }
+for (let car of cars){
+    console.log(car)
+}
 
 
 
