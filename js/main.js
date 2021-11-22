@@ -37,18 +37,44 @@
 //const isfullAge = currentYear - birthYear >= fullAge
 //console.log(isfullAge)
 // 6 Условные операторы 
-const courseStatus = 'ready'
-if (courseStatus==='ready'){
-    console.log('Курс уже готов и его можно проходить')
-} else if (courseStatus==='pending'){
-    console.log('Курс находится в процесе разработки')
-} else {
-    console.log('Курс не получился')
-}
-const num1 = 42//number 
-const num2 = '42'//string
+// const courseStatus = 'ready'
+// if (courseStatus==='ready'){
+//     console.log('Курс уже готов и его можно проходить')
+// } else if (courseStatus==='pending'){
+//     console.log('Курс находится в процесе разработки')
+// } else {
+//     console.log('Курс не получился')
+// }
+// const num1 = 42//number 
+// const num2 = '42'//string
 
-console.log(num1==num2)
+// console.log(num1==num2)
+
+// const isReady = false
+
+// if (isReady){
+//     console.log("Всё готово")
+// }else {
+//     console.log("Все не готово")
+// }
+// Тернарное выражение
+// isReady ? console.log("Всё готово") : console.log("Все не готово")
+// 7 Функции 
+function calculateAge(year){
+    return 2021 - year
+}
+const myAge = calculateAge(2003)
+console.log(myAge)
+
+function logInfoAbout(name, year){
+    const age = calculateAge(year)
+    if(age>0){
+        console.log('Человек по имени ' + name + ' Сейчас имеет возраст ' + age)
+    } else {
+        console.log('Вообще-то это уже будущее!')
+    }
+}
+logInfoAbout('Назар',20025)
 
 
 
